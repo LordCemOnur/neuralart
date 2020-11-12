@@ -3,10 +3,6 @@
 This is a Torch7 implementation of the method described in the paper 
 'A Neural Algorithm of Artistic Style' by Leon Gatys, Alexander Ecker, and Matthias Bethge (http://arxiv.org/abs/1508.06576).
 
-![](examples/starry_eiffel_short.gif)
-
-[(Longer animation)](http://gfycat.com/UnawareUnfortunateEkaltadeta)
-
 ## Dependencies
 
 - [Torch7](https://github.com/torch/torch7)
@@ -70,20 +66,6 @@ If all else fails (or if you don't have a CUDA-compatible GPU), you can optimize
 ```
 qlua main.lua --style <style.jpg> --content <content.jpg> --cpu
 ```
-
-## Examples
-
-The Eiffel Tower in the style of Edvard Munch's *The Scream*:
-
-![](examples/eiffel_scream_short.gif)
-
-[(Longer animation)](http://gfycat.com/WebbedValuableGreyhounddog)
-
-Picasso-fied Obama:
-
-![](examples/picasso_obama_short.gif)
-
-[(Longer animation)](http://gfycat.com/WeakPettyDevilfish)
 
 ## Implementation Details
 
